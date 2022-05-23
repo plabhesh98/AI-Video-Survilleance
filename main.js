@@ -17,6 +17,14 @@ function start(){
     document.getElementById("status").innerHTML = "Status: Detecting Objects";
 }
 
+function stop(){
+    video.stop();
+}
+
+function pause(){
+    video.pause();
+}
+
 function modelLoaded(){
     console.log("Cocossd is Initialized");
     Status = true;

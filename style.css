@@ -2,7 +2,7 @@ body{
     background-size: cover;
 }
 
-#status, #number_of_objects, #start{
+#status, #number_of_objects, #start, #stop, #pause{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 5px;
